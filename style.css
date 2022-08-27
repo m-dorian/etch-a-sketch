@@ -9,7 +9,7 @@ body {
 .drawing-area { 
     display: flex;
     flex-wrap: wrap;
-    background-color: black; 
+    background-color: rgb(255, 255, 255); 
     height: 500px; 
     width: 500px; 
     margin: auto;   
@@ -19,4 +19,15 @@ body {
 
 .grid { 
     background-color: blue; 
+} 
+
+.color-picker { 
+    color: white; 
+    font-size: 40px;
+} 
+
+#color-select { 
+    height: 60px; 
+    width: 100px;
+    
 }

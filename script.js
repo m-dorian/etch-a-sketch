@@ -12,11 +12,18 @@ const drawingArea = document.querySelector('.drawing-area');
         square = 'undefined';
 } 
 
+const colorPicker = document.querySelector('#color-select');
+let colorValue;
+colorPicker.addEventListener('change', function(e) { 
+    colorValue = e.target.value; 
+    
+})
+
 const gridSquares = document.querySelectorAll('.grid'); 
 
 gridSquares.forEach(grid => {  
     grid.addEventListener('mouseover', () => { 
-        grid.style.backgroundColor ='green';
+        grid.style.backgroundColor = `${colorValue}`;
     })
     
 })

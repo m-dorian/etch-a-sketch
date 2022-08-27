@@ -8,12 +8,23 @@
     <script defer src="script.js"></script>
     <title>Etch-A-Sketch</title>
 </head>
-<body>
-    <div class="drawing-area"></div> 
+<body> 
+    <div class="main-content"> 
+        <div class="pickers">
+            <div class="color-picker"> 
+                <label for="color-select">Color: </label>
+                <input type="color" id="color-select"> 
+            </div>
+        
+            <div class="grid-range"> 
+                <button type="button" id="range-button">Click here to change the size of the grid!</button>
+            </div> 
+            </div>
 
-    <div class="color-picker"> 
-        <label for="color-select">Color: </label>
-        <input type="color" id="color-select"> 
+    <div class="drawing-area"></div> 
+    
+    <div class="blank"></div>
+    
     </div>
 </body>
 </html>

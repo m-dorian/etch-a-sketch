@@ -1,4 +1,10 @@
 let gridSize = Number(prompt('Grid size:'));
+const gridRange = document.querySelector('#range-button'); 
+gridRange.addEventListener('click', function(e){ 
+   window.location.reload();
+
+}) 
+
 gridSize *= gridSize;
 let squareSize = Math.sqrt((500**2)/(gridSize));
 const drawingArea = document.querySelector('.drawing-area'); 
@@ -27,4 +33,3 @@ gridSquares.forEach(grid => {
     })
     
 })
-

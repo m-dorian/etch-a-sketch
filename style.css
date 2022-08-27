@@ -9,17 +9,18 @@ body {
 .drawing-area { 
     display: flex;
     flex-wrap: wrap;
-    background-color: rgb(255, 255, 255); 
+    background-color: rgb(0, 0, 0); 
     height: 500px; 
     width: 500px; 
-    margin-left: auto;
+    
     
     
 } 
 
+
 .grid { 
-    background-color: rgb(255, 255, 255); 
-} 
+    background-color: white;
+}
 
 .color-picker, .grid-range { 
     color: white; 
@@ -40,7 +41,7 @@ body {
 
 .blank { 
     height: 500px; 
-    width: 350px; 
+    width: 217px; 
 } 
 
 .grid-range { 

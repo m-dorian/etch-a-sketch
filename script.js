@@ -12,3 +12,12 @@ const drawingArea = document.querySelector('.drawing-area');
         square = 'undefined';
 } 
 
+const gridSquares = document.querySelectorAll('.grid'); 
+
+gridSquares.forEach(grid => {  
+    grid.addEventListener('mouseover', () => { 
+        grid.style.backgroundColor ='green';
+    })
+    
+})
+
